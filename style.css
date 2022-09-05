@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background: #0d1a2d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background: #15273f;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.image{
+    padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 0px;
+}
+
+.image:hover{
+    background-color: #07fdfb;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content{
+    padding: 20px;
+    padding-top: 15px;
+    font-family: "Outfit";
+}
+
+h3{
+    margin: 0px 0px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+h3:hover{
+    color: #07fdfb;
+}
+
+.rate{
+    color: #fff;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth{
+    font-weight: 400;
+}
+
+.time{
+    font-weight: 200; 
+    font-size: small;
+}
+
+span{
+    text-align: center;
+}
+
+svg{
+    vertical-align: top;
+}
+
+b:hover{
+    color: #07fdfb;
+}
+
+hr{
+    height:0.2px;
+    border-width:0;
+    color:white;
+    background-color:white;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.imgAv{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-color: #fff;
+    border: 1px;
+}
+
+.author{
+    flex-direction: row;
+    font-family: "Outfit";
+    font-size: medium;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.name:hover{
+    color: #07fdfb;
+}
